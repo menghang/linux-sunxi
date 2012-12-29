@@ -760,6 +760,11 @@ config TOUCHSCREEN_FT5X_TS
        help
          byd0x7ets touchscreen driver
 
+config TOUCHSCREEN_FT5306
+       tristate  "ft5306 touchscreen driver"
+       help
+         P85 touchscreen driver
+
 config  TOUCHSCREEN_ZT8031
        tristate  "ZT8031 touchscreen driver"
        help
